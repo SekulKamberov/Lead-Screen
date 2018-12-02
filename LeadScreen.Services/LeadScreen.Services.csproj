@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeadScreen.AzureTable\LeadScreen.AzureTable.csproj" />
+    <ProjectReference Include="..\LeadScreen.Data\LeadScreen.Data.csproj" />
+    <ProjectReference Include="..\LeadScreen.Models\LeadScreen.Models.csproj" />
+  </ItemGroup>
+
+</Project>
